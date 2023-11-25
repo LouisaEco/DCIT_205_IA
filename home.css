@@ -1,0 +1,38 @@
+.horizontal-list {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.horizontal-list li {
+   margin-right: 18px;
+}
+
+.image{
+  margin-left: 40px;
+}
+
+
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  }
+
+.video{
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+footer {
+  background-color: rgb(21, 226, 216);
+  color: black;
+  text-align: center;
+  padding: 1em 0;
+  bottom: 0;
+  width: 100%; 
+   padding-top: 1em;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="icon" href="UG logo.png">
+    <link rel="stylesheet" href="home.css">
+
+    <style>
+        .horizontal-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .horizontal-list li {
+            margin-right: 18px;
+        }
+
+        .image {
+            margin-left: 40px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            z-index: 1000;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        #video-container {
+            position: relative;
+            margin-right: 40px;
+            overflow: hidden; /* Ensure video doesn't extend beyond container */
+            margin-top: 60px; /* Adjust this value based on your header's height */
+        }
+
+        #videobackground {
+            object-fit: cover;
+            width: 100%;
+            height: 300px;
+        }
+
+        #overlay-text {
+            position: absolute;
+            top: 18%;
+            left: 60%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 25px;
+            text-align: right;
+            z-index: 2; /* Ensure text appears above other elements */
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            top: 50%; /* Center the sections vertically */
+            left: 50%; /* Center the sections horizontally */
+            transform: translate(-50%, -50%);
+            width: 70%; /* Adjust the width as needed */
+            z-index: 1; /* Ensure the sections appear above the video */
+            margin-bottom: -160px;
+
+        }
+
+        .section {
+            flex: 1;
+            margin: 0 10px; /* Adjust the spacing between sections */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: rgb(21, 226, 216);
+            color: black;
+            text-align: center;
+            padding: 1em 0;
+            padding-top: 50px;
+        }
+
+        section {
+            max-width: 800px;
+            background-color: #fff;
+            overflow: hidden;
+            padding: 20px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+
+        section img {
+         max-width: 50%;
+        border-radius: 5px;
+        margin-right: 20px;
+        }
+
+
+
+        article{
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 200px;
+        }
+
+        .second-image {
+            position: relative;
+            width: 100%;
+        }
+
+        .second-image b,
+        .second-image p.home {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+         <header>
+            <div class="container">
+                <img src="UG DCS Logo.png" width="250px" alt="Department of Computer Science, University of Ghana Logo"
+                    class="image">
+        
+                <ul class="horizontal-list">
+                    <li><a href="/Home.html">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/Faculty.html">Faculty</a></li>
+                    <li><a href="/Research.html">Research</a></li>
+                    <li><a href="/Contactus.html">Contact Us</a></li>
+                    <li><a href="/Studentsform.html">Students Form</a></li>
+                    <li><a href="/Undergraduate.html">Undergraduate Courses</a></li>
+                    <li><a href="/Graduate.html">Graduate Courses</a></li>
+                </ul>
+            </div>
+        </header>
+   
+
+    <div id="video-container">
+        <video class="video" id="videobackground" width="95%" height="300px"  autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div id="overlay-text">YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</div>
+    </div>
+
+    <div id="container">
+        <div class="section">
+            <h2>Short Courses</h2>
+            <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students,
+                school graduates, workers and the general public.Read More</p>
+        </div>
+
+        <div class="section">
+            <h2>Undergraduate programmes</h2>
+            <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science
+                degree.Read More.</p>
+        </div>
+
+        <div class="section">
+            <h2>Phil and Msc programmes</h2>
+            <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.
+                Read More</p>
+        </div>
+
+        <div class="section">
+            <h2>PhD programmes</h2>
+            <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant
+                research.
+
+                Read More.</p>
+        </div>
+    </div>
+
+    <section>
+        <img src="events..jpg" alt="Our Story Image" height="300px">
+        <div>
+            <h2>Departmental Events</h2>
+            <p>
+                Programmes, seminars and events organized by the department 
+                View upcoming and ongoing events
+            </p>        
+        </div>
+        
+    </section>
+
+    <article>
+       <h1>Short Courses we offer</h1> 
+        <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p>
+        <p>Evening and Weekend Session Only</p> 
+    </article>
+
+
+    <div style="position: relative; width: 100%; height: 400px;">
+        <img src="students.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Three Students Standing">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(17, 12, 12, 0.5); margin-bottom: 50px;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; z-index: 2; overflow: hidden;">
+            <h2>Join our Short Course Program</h2>
+            <p class="home" style="max-width: 600px; margin: 0 auto; font-size: 18px; line-height: 1.5;">
+                To be able to take full advantage of the opportunities available in this technology-driven era, it is important to acquire new skills. Skills in ICT that will springboard your career
+            </p>
+    
+            <div style="display: flex; justify-content: space-around; margin-top: 40px;">
+                <div style="flex: 1; padding: 20px; margin-right: 20px;" >
+                    <h4>Expert Instructors</h4>
+                    <p style="font-size: 14px;">Our instructors have years of industry experience, presenting students with a unique opportunity to learn from the best.</p>
+                </div>
+    
+                <div style="flex: 1; padding: 20px;">
+                    <h4>Certification</h4>
+                    <p style="font-size: 14px;">You earn a certificate of completion from the department after completing and passing the prescribed exam.</p>
+                </div>
+            </div>
+    
+            <button class="button" style="margin-top: 20px;">Register</button>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2023 Department of Computer Science, University of Ghana, Legon</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the video element
+            const video = document.getElementById('videobackground');
+
+            // Add a delay of 1000 milliseconds (1 second) before playing
+            setTimeout(function () {
+                video.play();
+            }, 1000);
+        });
+    </script>
+
+</body>
+</html>

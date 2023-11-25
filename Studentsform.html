@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Students Form</title>
+    <link rel="icon" href="UG logo.png">
+    <link rel="stylesheet" href="studentsform.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: white;
+        }
+
+        .horizontal-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .horizontal-list li {
+            margin-right: 18px;
+        }
+
+        .image {
+            margin-left: 40px;
+            margin-right: 50px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .card {
+            background: white;
+            width: 300px;
+            margin: 10vh auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px gray;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            padding: 12px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #eeeeee;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: #5544ff;
+        }
+
+        .submit-btn {
+            background: #5544ff;
+            color: white;
+            outline: none;
+            border: 1px solid;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 1em 0;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="UG DCS Logo.png" width="250px" alt="Department of Computer Science, University of Ghana Logo"
+                class="image">
+
+            <ul class="horizontal-list">
+                <li><a href="/Home.html">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Faculty.html">Faculty</a></li>
+                <li><a href="/Research.html">Research Groups</a></li>
+                <li><a href="/Contactus.html">Contact Us</a></li>
+                <li><a href="/Studentsform.html">Students Form</a></li>
+                <li><a href="/Undergradute.html">Undergraduate Courses</a></li>
+                <li><a href="/Graduate.html">Graduate Courses</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div style="position: relative; width: 100%; height: 400px; padding-left: 50px;">
+        <img src="student.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="Three Students Standing">
+        <div style="position: absolute; top: 0; left: 0; width: 90%; height: 100%; background: rgba(17, 12, 12, 0.5); margin-bottom: 50px;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; z-index: 2; overflow: hidden;">
+            <h1 class="home" style="max-width: 600px; margin: 0 auto; font-size: 18px; line-height: 1.5;">
+                Student Complaint Form
+            </h1>
+    </div>
+
+
+    <div class="card">
+        <form>
+            <label>Email:</label>
+            <input type="email" name="Email" placeholder="Email">
+
+            <label>Password:</label>
+            <input type="password" name="Password" placeholder="Password">
+
+            <label>Name:</label>
+            <input type="text" name="Name" placeholder="Name">
+
+            <label>Programme:</label>
+            <select name="Program" class="select">
+                <option>BSc. Information Technology</option>
+                <option>BSc. Computer Science</option>
+            </select>
+
+            <label>Phone:</label>
+            <input type="tel" name="Phonenumber" placeholder="Phone number">
+
+            <label>Date:</label>
+            <input type="date" name="Date" placeholder="Date">
+
+            <label>ID:</label>
+            <input type="text" name="ID" placeholder="ID">
+
+            <label>Level:</label>
+            <input type="number" name="Level" placeholder="Level">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Department of Computer Science, University of Ghana, Legon</p>
+  </footer>
+
+</body>
+</html>

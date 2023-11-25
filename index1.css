@@ -1,0 +1,50 @@
+.horizontal-list {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: flex-end;
+
+}
+
+.horizontal-list li {
+    margin-right: 40px;
+}
+
+ .image{
+    margin-left: 100px;
+ }
+
+ .container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+ }
+
+ .video-container {
+    position: relative;
+ }
+ 
+ .video{
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 350px;
+    padding-top: 20px;
+ }
+
+ .home{
+    font-size: 15px;
+ }
+
+ .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50% -50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }

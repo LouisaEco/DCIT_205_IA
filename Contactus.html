@@ -1,0 +1,213 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel = "icon" href="UG logo.png">
+  <title>Contact Us</title>
+
+  <style>
+  body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('contact.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333; /* Adjust text color for better contrast */
+    }
+s
+    header h1 {
+      margin: 0;
+    }
+
+    .container img {
+      margin-right: 250px;
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .info-item {
+      text-align: center;
+      max-width: 200px;
+      background-color: #fff; /* Light background for info items */
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px;
+      margin-top: 60px;
+    }
+
+    .contact-form {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 60px;
+    }
+
+    form {
+      display: grid;
+      grid-gap: 10px;
+      margin-bottom: 100px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #fff; /* Light background for footer */
+      color: #333;
+      text-align: center;
+      padding: 1em 0;
+      bottom: 0;
+      width: 100%; 
+      padding-top: 1em;
+    }
+
+    .list {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      padding-top: 10px;
+    }
+
+    
+    .horizontal-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+        .horizontal-list li {
+            margin-right: 18px;
+        }
+
+        .image {
+            margin-left: 40px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color:white;
+            z-index: 1000;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+            .first-image{
+              max-width: 100%;
+              margin-left: 100;
+             margin-right: 100px;
+              padding-top: 100px;
+          }
+
+  </style>
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+        <img src="UG DCS Logo.png" width="250px" alt="Department of Computer Science, University of Ghana Logo"
+            class="image">
+
+        <ul class="horizontal-list">
+            <li><a href="/Home.html">Home</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Faculty.html">Faculty</a></li>
+            <li><a href="/Research.html">Research</a></li>
+            <li><a href="/Contactus.html">Contact Us</a></li>
+            <li><a href="/Studentsform.html">Students Form</a></li>
+            <li><a href="/Undergraduate.html">Undergraduate Courses</a></li>
+            <li><a href="/Graduate.html">Graduate Courses</a></li>
+        </ul>
+    </div>
+</header>
+
+
+  <section class="contact-info">
+    <div class="info-item">
+      <h2>Location</h2>
+      <p>
+        University Of Ghana, Legon Campus
+        Opposite Mathematics Department
+      </p>
+    </div>
+
+    <div class="info-item">
+      <h2>Phone</h2>
+      <p>&#128222; +233 501 382 035</p>  
+      <p>&#128222; +233 559 145 698 </p>       
+    </div>
+
+    <div class="info-item">
+      <h2>Email</h2>
+      <p> dcs@ug.edu.gh</p>
+    </div>
+
+    <div class="info-item social-icons">
+      <h2>Follow Us</h2>
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <form action="#" method="post" class="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Department of Computer Science, University of Ghana, Legon</p>
+  </footer>
+
+</body>
+</html>
