@@ -82,8 +82,9 @@ I look forward to incorporating feedback and continually improving the website t
 ![faculty3](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/45beb89f-264a-45b9-9441-644bc5ac5c68)
 ![faculty4](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/c4779c5b-58ba-4c3b-9c1e-79d9c5fe4553)
 ![faculty5](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/8e3aacbb-b06b-45f0-90bc-e8555b16628a)
-![faculty6](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/2edd1803-4478-4195-a408-40cf1f903e9e)
+![faculty8](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/3ee7bede-2733-4373-a4e1-81dbd224a37a)
 ![faculty9](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/5e5e2b1e-1375-44cb-b7d9-9bcf79779a30)
+
 
 
 ## NAME
