@@ -1,5 +1,9 @@
-# DCIT_205_IA 
- Project Name
+# 11256293_DCIT_205_IA 
+
+## Project Name
+Redesign of computer science department
+
+##Introduction and Purpose
 Welcome to the official website repository for the Department of Computer Science at the University of Ghana. This website serves as the central hub for students, faculty, and visitors to access information about undergraduate and graduate courses, faculty details, research initiatives, and contact information.
 
 ##Clone and setting up of the project
