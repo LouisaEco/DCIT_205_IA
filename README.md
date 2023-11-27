@@ -36,11 +36,10 @@ I look forward to incorporating feedback and continually improving the website t
 ##contactus page screenshots
 ![contactus](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/a4d49c9d-856b-46b0-a2ef-fb70855696d1)
 ![contactus2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/0902ce1e-15ad-4ec8-bab5-42f84a4f76eb)
-
-
-
-
-
+##student compliant form screenshoots
+![studentform1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/564eab39-f540-4c4c-bbf9-4455d4fc5f20)
+![studentform2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/9a5fc304-a5ce-4e1a-90fb-c2765c526845)
+![studentform3](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/178d5946-f4c3-4bbd-b413-44ac3049ad5e)
 
 
 
