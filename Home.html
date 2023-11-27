@@ -84,7 +84,7 @@
         }
 
         footer {
-            background-color: rgb(21, 226, 216);
+            background-color: rgb(204, 209, 130);
             color: black;
             text-align: center;
             padding: 1em 0;
@@ -109,7 +109,29 @@
         margin-right: 20px;
         }
 
+        .button{
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition-duration: 1em;
+            height: 25px;
+            width: 60px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 15;
+            font-family: 'Times New Roman', Times, serif;
+            transition: opacity 0.15s;
+            margin-bottom: 10px;
+        }
 
+        .button:hover{
+            opacity: 0.6;
+        }
+
+        .button:active{
+            opacity: 0.5;
+        }
 
         article{
             text-align: center;
@@ -131,6 +153,78 @@
             color: white;
             text-align: center;
         }
+
+        .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-top: 60px;
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%; /* Adjusted width */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Form styling */
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: inline-block;
+        width: 120px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    input {
+        width: calc(100% - 140px);
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #004080;
+        text-decoration: none;
+    }
     </style>
 </head>
 
@@ -143,12 +237,12 @@
                 <ul class="horizontal-list">
                     <li><a href="/Home.html">Home</a></li>
                     <li><a href="/About.html">About</a></li>
-                    <li><a href="/Faculty.html">Faculty</a></li>
                     <li><a href="/Research.html">Research</a></li>
                     <li><a href="/Contactus.html">Contact Us</a></li>
                     <li><a href="/Studentsform.html">Students Form</a></li>
                     <li><a href="/Undergraduate.html">Undergraduate Courses</a></li>
                     <li><a href="/Graduate.html">Graduate Courses</a></li>
+                    <li><a href="/Faculty.html">Faculty</a></li>
                 </ul>
             </div>
         </header>
@@ -165,27 +259,24 @@
         <div class="section">
             <h2>Short Courses</h2>
             <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students,
-                school graduates, workers and the general public.Read More</p>
+                school graduates, workers and the general public.</p>
         </div>
 
         <div class="section">
             <h2>Undergraduate programmes</h2>
             <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science
-                degree.Read More.</p>
+                degree.</p>
         </div>
 
         <div class="section">
             <h2>Phil and Msc programmes</h2>
-            <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.
-                Read More</p>
+            <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p>
         </div>
 
         <div class="section">
             <h2>PhD programmes</h2>
             <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant
-                research.
-
-                Read More.</p>
+                research.</p>
         </div>
     </div>
 
@@ -229,10 +320,42 @@
                 </div>
             </div>
     
-            <button class="button" style="margin-top: 20px;">Register</button>
+            <button class="button" style="margin-top: 20px;" onclick="openModal()">Register</button>
         </div>
     </div>
 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Registration Form</h2>
+            <!-- Your registration form fields go here (name, id, email, phone number) -->
+            <form>
+                <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                </div>
+
+                <div class="form-group">
+                        <label for="id">ID:</label>
+                        <input type="text" id="id" name="id" required><br>
+                </div>
+
+                <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                </div>
+
+                <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required><br>
+                 </div>
+
+                <div class="form-group">
+                        <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
 
 
     <footer>
@@ -249,6 +372,23 @@
                 video.play();
             }, 1000);
         });
+
+        function openModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+
+        // Close the modal if the user clicks outside the modal
+        window.onclick = function (event) {
+            var modal = document.getElementById('myModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
     </script>
 
 </body>
