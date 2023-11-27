@@ -47,4 +47,10 @@ I look forward to incorporating feedback and continually improving the website t
 ##Graduate page screenshots
 ![grat1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/a9a7a88c-b9b5-4bcf-a8cd-cb9507357a04)
 
+
+
+
+##NAME
+KORNU LOUISA XORLALI ECO 11256293
+
 KORNU LOUISA XORLALI ECO 11256293
