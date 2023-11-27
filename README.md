@@ -30,14 +30,9 @@ I look forward to incorporating feedback and continually improving the website t
 ![about2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/49ce86e6-c039-4059-b223-171ebd4018a3)
 ![about3](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/257058b2-dfc0-4137-9334-6a5a8a8c379a)
 ![about4](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/fb3a87fc-30de-4952-9973-bfbe41e79ba6)
-
-
-
-
-
-
-
-
+##research page screenshots
+![Research1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/25855bab-3981-451b-ae99-11af5fe266a6)
+![Research2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/62f6c60c-a532-4927-9e55-978d148fa9ec)
 
 
 
