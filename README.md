@@ -63,8 +63,17 @@ I look forward to incorporating feedback and continually improving the website t
 ## Undergraduate page screenshots
 
 ![undergraduate1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/b37e6c1a-82ff-46ab-9af3-7837c78a14d6)
+![under4](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/bc34fb6a-7ce7-4ee8-9acc-850d07115ef9)
 ![undegrat2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/30450515-4238-4aa8-8749-ed0d513a6bfe)
 ![undergrat3](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/aa1f0574-3148-45f3-813c-3ff460c4054c)
+
+
+
+
+
+
+
+
 
 ## Graduate page screenshots
 
