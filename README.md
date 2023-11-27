@@ -1,19 +1,26 @@
 # DCIT_205_IA 
  Project Name
+Welcome to the official website repository for the Department of Computer Science at the University of Ghana. This website serves as the central hub for students, faculty, and visitors to access information about undergraduate and graduate courses, faculty details, research initiatives, and contact information.
 
-The redesign of the Department of Computer science webesite of University of Ghana.
-
-
-## Installation
-
-Explain how to install your project. Provide code snippets if necessary.
+##Clone and setting up of the project
+Visit your fork on GitHub.
+Switch to the branch you created.
+Click the "New Pull Request" button.
+Provide a title and description for your pull request.
+Submit the pull request.
 
 ## Challenges
 She had a lot of chanllenges. One of her major challenge is color combination which she is really bad when it comes to that. She also have a problem with contrast that is for the it to be clear and did not know the name for accordion but was so interested to include it.
 
 
 ## Lessons from the project.
-In as much as she had challenges, she was able to create an accordion, which she had learnt how to do now. she also learnt how to create a modal and sidebar. She also learnt the importance of constract of a website. 
+Throughout this project, I have gained valuable experience in:
+Front-end web development using HTML, CSS, and JavaScript.
+Responsive design principles that is making sure there is a contract on my page.
+Integrating interactive features, such as an accordion for course details.
+Implementing a contact form for user interaction.
+Version control and collaboration using Git and GitHub.
+I look forward to incorporating feedback and continually improving the website to meet the evolving needs of the Department of Computer Science.
 ##home page screenshots
 ![home1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/97c38bb6-35ef-4e0f-b848-4d3975ea3fe3)
 
