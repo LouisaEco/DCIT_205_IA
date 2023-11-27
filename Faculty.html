@@ -1,9 +1,200 @@
 <!DOCTYPE html>
-    <head>
-        <title>Faculty</title>
-    </head>
-         
-    <body>
-    <p>How are you </p>
-    </body>
+<html lang="en">
+<head>
+    <title>Faculty</title>
+    <link rel="icon" href="UG logo.png">
+    <link rel="stylesheet" href="faculty.css">
+
+    <style>
+       body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.horizontal-list li {
+    margin-right: 18px;
+}
+
+.image {
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(204, 209, 130);
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    padding-top: 50px;
+}
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faculty-card {
+    background: white;
+    width: 300px;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faculty-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #5544ff;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="UG DCS Logo.png" width="250px" alt="Department of Computer Science, University of Ghana Logo"
+                class="image">
+
+            <ul class="horizontal-list">
+                <li><a href="/Home.html">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Research.html">Research Groups</a></li>
+                <li><a href="/Contactus.html">Contact Us</a></li>
+                <li><a href="/Studentsform.html">Students Form</a></li>
+                <li><a href="/Undergraduate.html">Undergraduate Courses</a></li>
+                <li><a href="/Graduate.html">Graduate Courses</a></li>
+                <li><a href="/Faculty.html">Faculty</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div style="position: relative; width: 100%; height: 400px; padding-left: 50px;">
+        <img src="faculty.jpg" style="width: 100%; height: 100%; object-fit: cover;" alt="Faculty Members">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(17, 12, 12, 0.5); margin-bottom: 50px;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; z-index: 2; overflow: hidden;">
+            <h1 class="home" style="max-width: 600px; margin: 0 auto; font-size: 18px; line-height: 1.5;">
+                Meet Our Faculty Members
+            </h1>
+        </div>
+    </div>
+
+    <div class="faculty-container">
+        <div class="faculty-card">
+            <img src="JDA.jpg" alt="Faculty Member 1" class="faculty-image">
+            <h2>Jamal-Deen Abdulai</h2>
+            <p>He is an accomplished Ghanaian computer scientist and academic with over 100 publications in international conferences and journals. He is a Senior Lecturer in the Department of Computer Science at the University of Ghana, an institution he has served for over a decade. His areas of expertise include wireless sensor networks, photonics, and information security. Abdulai is recognized for his contributions to the development of wireless sensor networks and their applications in various fields, including agriculture, environmental monitoring, and healthcare. He is also actively engaged in research on photonics and information security, with a focus on developing new technologies to protect sensitive data.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="MarkAtta.jpg" alt="Faculty Member 2" class="faculty-image">
+            <h2>Mark Atta Mensah</h2>
+            <p>He is a Ghanaian lecturer, researcher, trainer, and with expertise in a variety of fields, including information technology, and education. He is currently a lecturer at the University of Ghana and has published numerous r and journals. Mensah is also a trainer and consultant, providing training and consultancy services to organizations in Ghana and beyond. He is passionate about using technology to improve healthcare and education in Africa.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="Agbosoli.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Michael Tettey Agbo Soli</h2>
+            <p> A critical thinker and solutions engineer with over a decade experience in software engineering and algorithm design. With a strong mathematical base, solving complex problems with mathematics is simply another opportunity to exhibit the beauty and elegance of mathematic</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="NTCA.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Nii Tackie Commey Ammah</h2>
+            <p> He is a Ghanaian professional with expertise in various fields, including information technology, business management, and project management. He is currently a Senior Solutions Architect at Oracle Corporation based in Accra, Ghana.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="PBS.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Prince Boakye-Sekyerehene</h2>
+            <p>  I'm driven by a passion for innovation, education, and personal development. With a track record of turning ideas into successful outcomes, I bring a unique blend of skills to the table. Actively contributing to academia through research and mentorship, I bridge the gap between theory and practice. As a committed advocatee for growth, I guide individuals to unlock their potential and cultivate a mindset of continuous development.</p>
+        </div>
+       
+        <div class="faculty-card">
+            <img src="JKAppati.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Justice Kwame Appati</h2>
+            <p>He is a Ghanaian computer scientist and academic with expertise in artificial intelligence, machine learning, and data mining. He is currently a Senior Lecturer in the Department of Computer Science at the University of Ghana, where he has been a faculty member since 2014.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="EO.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Ebenezer Owusu</h2>
+            <p> Specialties: Pattern Recognition, Image Processing, Computer Vision.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="DM.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>David Malan</h2>
+            <p> He is a lecturer at the Harvard University Department of Computer Science. His interests include programming languages, computer security, and software engineering. He has written several books, including "Mastering Python" and "The Secret Language of Computers.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="WY.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Winfred Yaokumah</h2>
+            <p>He is a researcher, cyber security expert and senior faculty at the Department of Computer Science of the University of Ghana. His work appears in several local and international reputable journals. He is an editor of the Modern Theories and Practices for Cyber Ethics and Security Compliance. He also serves on an International Review Board for the International Journal of Technology Diffusion.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="PKatrisku.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Ferdinand Apietu Katsriku</h2>
+            <p> 
+                Education: PhD.(London), PGCE, QTS, (London), MSc. (Scotland) MEng.(Distinction) (former USSR), Dip. Ed. (Russian Language) (former USSR) Areas of interest: My current research focus is number of wireless systems will bring in its wake a number of problems including spectral congestion and the need to employ better and sophisticated frequency planning techniques. Cognitive radio has emerged as preferred way of building intelligent radio systems that are capable of interacting with their environment and making real time decisions.</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="JAnnan.jpg" alt="Faculty Member 3" class="faculty-image">
+            <h2>Joseph Annan</h2>
+            <p> Over 20 years' practical experience in software and application development. (Strong experience in Database Principles, Development and Implementation (Oracle and MS Access), Visual Programming, Information and Knowledge Systems and System Lifecycle Development using UML Tools)</p>
+        </div>
+
+        <div class="faculty-card">
+            <img src="TOK.jpg" alt="Faculty Member 3" class="faculty-image">
+            <p>Tools for designing persuasive technologies are becoming increasingly available with the "explosion in innovation" in areas of social networking, ubiquitous computing and ambient intelligence. Yet most of the current persuasive technologies available either do not make explicit the theoretical foundation upon which they are developed or do not have one at all [Torning and Oinas-Kukkonen 2009]..</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>The office of our faculty members are located at the RIPS building.</p>
+        <p>&copy; 2023 Department of Computer Science, University of Ghana, Legon</p>
+    </footer>
+
+</body>
 </html>
