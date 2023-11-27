@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Research</title>
+    <link rel="icon" href="DCS.png">
+    <style>
+body {
+    padding-top: 100px; /* Adjust the value as needed to create space for the fixed header */
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.horizontal-list li {
+    margin-right: 18px;
+}
+
+.image {
+    margin-left: 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 1001;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto; /* Adjusted margin */
+    background-color: rgba(236, 225, 225, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.message {
+    margin-top: 20px;
+    color: rgb(1, 1, 34);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.accordion {
+    width: 300px;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.accordion-item.open .arrow {
+    transform: rotate(180deg);
+}
+
+.section-title {
+    margin-left: 10px; /* Add spacing between arrow and section title */
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+.image2{
+    border-radius: 20px;
+    width: auto;
+    height: 60%;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="UG DCS Logo.png" width="250px" alt="Department of Computer Science, University of Ghana Logo"
+                class="image">
+
+            <ul class="horizontal-list">
+                <li><a href="/Home.html">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Research.html">Research</a></li>
+                <li><a href="/Contactus.html">Contact Us</a></li>
+                <li><a href="/Studentsform.html">Students Form</a></li>
+                <li><a href="/Undergraduate.html">Undergraduate Courses</a></li>
+                <li><a href="/Graduate.html">Graduate Courses</a></li>
+            </ul>
+        </div>
+    </header>
+
+            <div class="message">
+                      <li><a href="./Graduate.html">MPhil Computer Science</a></li>
+                      <li><a href="./MSc.html">MSc Computer Science</a></li>
+                      <li><a href="./PhD.html">PhD Computer Science</a></li>
+                </ul>
+            </div>
+       
+    <section class="main-section">
+        <div class="content">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                   Year 1 <span class="arrow">▼</span> 
+                </div>
+                <div class="accordion-content">
+                  <p>FIRST SEMESTER</p>
+                  <p>FASC 701	Science and Society (Faculty Wide)</p>
+                  <p>FASC 700	Special Topics in Science</p>
+                  <p>ELECTIVES:</p>
+                  <p>CSCD 721	Grand Research Challenges in Computer Science</p>
+                  <p>CSCD 723	Emerging Database Models</p>
+                  <p>CSCD 725	Research in Bioinformatics and Computational Biology</p>
+                  <p>CSCD 727	Ubiquitous Computing</p>
+                  
+                  <p>SECOND SEMESTER</p>
+                  <p>CSCD 722	New Developments in Cyber Security and Networks</p>
+                  <p>FASC 702	Advanced Quantitative Research Methods</p>
+                  <p>ELECTIVES:</p>
+                  <p>CSCD 724	New Developments in Computer Architecture</p>
+                  <p>CSCD 726	Next Generation Wireless Systems and Networks</p>
+                  <p>CSCD 716	New Directions in Artificial Intelligence</p>
+                  <p>CSCD 728	Research Issues in Social Networks</p>
+                  <p>CSCD 732	Advances in High Performance Computing</p>
+                  <p>FASC 710	Teaching Science at the Tertiary Level</p>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <div class="accordion-header">
+                   Year 2  <span class="arrow">▼</span> 
+                </div>
+                <div class="accordion-content">
+                  <p>FIRST SEMESTER</p>
+                  <p>CSCD 710	Seminar I (Research Proposal)</p>
+                  
+                  <p>SECOND SEMESTER</p>
+                  <p>CSCD 720	Seminar II (Experiential research learning)</p>
+                  
+                </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-header">
+                 Year 3  <span class="arrow">▼</span> 
+              </div>
+              <div class="accordion-content">
+                <p>FIRST SEMESTER</p>
+                <p>CSCD 730	Seminar III (Research progress)</p>
+              </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+               Year 4 <span class="arrow">▼</span> 
+            </div>
+            <div class="accordion-content">
+              <p>SECOND SEMESTER</p>
+              <p>CSCD 720	Seminar II (Experiential research learning)</p>
+              
+            </div>
+        </div>
+        </div>
+
+        <div class="image2">
+            <img src="RProf.jpg" alt="Beautiful Image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Department of Computer Science, University of Ghana, Legon</p>
+    </footer>
+
+    
+   <script>
+      
+    document.addEventListener('DOMContentLoaded', function () {
+        const accordionItems = document.querySelectorAll('.accordion-item');
+    
+        accordionItems.forEach(item => {
+            const header = item.querySelector('.accordion-header');
+    
+            header.addEventListener('click', () => {
+                const content = item.querySelector('.accordion-content');
+                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+                item.classList.toggle('open');
+            });
+        });
+    });
+        </script>
+
+</body>
+
+</html>
