@@ -57,6 +57,12 @@ I look forward to incorporating feedback and continually improving the website t
 ![faculty1](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/47860be6-86ef-4ad0-b8c0-5ea06129a2dc)
 ![faculty2](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/1e8f3c9f-83d5-4388-87b8-0604be3c12a7)
 ![faculty3](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/45beb89f-264a-45b9-9441-644bc5ac5c68)
+![faculty4](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/c4779c5b-58ba-4c3b-9c1e-79d9c5fe4553)
+![faculty5](https://github.com/LouisaEco/DCIT_205_IA/assets/147488916/8e3aacbb-b06b-45f0-90bc-e8555b16628a)
+
+
+
+
 ##NAME
 
 KORNU LOUISA XORLALI ECO 11256293
